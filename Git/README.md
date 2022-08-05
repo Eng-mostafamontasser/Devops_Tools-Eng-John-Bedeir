@@ -249,6 +249,8 @@ git log
 ** to push your commits to the github repository:
 git push origin master  (or branch name instead of master)
 
+git push --force origin main  >>>> overridden
+
 ---------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------
 ** to download the repository to your pc :
