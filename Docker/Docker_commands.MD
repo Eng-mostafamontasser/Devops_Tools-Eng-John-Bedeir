@@ -70,3 +70,13 @@ docker rm <container_id>
 ```sh
 docker rmi <image_id>
 ```
+nots.
+-i : interactive or STD_IN
+
+-t : terminal or STD_OUT
+
+-d : detach    backgraund
+
+**** remove all process running Contaiber ***
+
+docker rm -f $(docker ps -a -q)
